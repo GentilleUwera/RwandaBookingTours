@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin: 0px;
+}
+.topnav{
+    width: 100%;
+    height: auto;
+    background: rgb(0, 46, 0);
+    padding: 20px 10px 15px 50px;
+    display: flex;
+    box-shadow: 3px 3px aqua;
+}
+.logo{
+    width: 8%;
+    height: 50px;
+    background-color: rgb(179, 4, 4);
+    text-align: center;
+}
+.navbar-right{
+    width: 85%;
+    overflow: hidden;
+}
+.topnav a{
+    color: white;
+    padding: 20px;
+    font-size: larger;
+    /* background:greenm */
+    float: right;
+    text-decoration: none;
+    height: 100%;
+}
+.topnav a:hover{
+    background: darkolivegreen;
+}
+
+body{
+    background-image: url(./img/background.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.home-container{
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.658);
+    font-size: 27;
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+.quote-div{
+    width: 35%;
+    height: 50vh;
+    background-color: rgba(255, 255, 255, 0.192);
+    float: right;
+    margin-top: 100px;
+    text-align: center;
+    padding: 60px;
+}
+.quote-div .button{
+    height: 8vh;
+    width: 80%;
+    background-color: white;
+    margin-top: 119px;
+    margin-left: 40px;
+    border-radius: 50px;
+    border: 2px solid darkred;
+    color: rgb(73, 1, 1);
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+.tour-section-container{
+    background-color: white;
+    width: 100%;
+    height:150vh;
+}
+.book-sort-div{
+    height: 80vh;
+    width: 100%;
+    font-size: 45;
+    color: darkred;
+    font-weight: bold;
+    padding: 40;
+    margin-top: -20px;
+}
+.book-sort-div label{
+    font-size:30 ;
+    color: black;
+}
+select{
+    width: 400px;
+    padding: 8px;
+    margin-top: -50px;
+}
+button{
+    width: 200px;
+    margin-top: -25px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid darkred;
+    margin-left: 220px;
+}
+.book-sort-div img{
+    width: 65%;
+    height: 70vh;
+    float: right;
+    margin-top: -350px;
+    padding: 20px;
+}
+.signup-form{
+    width: 37%;
+    height: 60vh;
+    background-color: white;
+   margin-top: 20px;
+   margin-left: 390px;
+   color: black;
+   padding: 20px 20px 20px 20px;
+}
+.signup-form input{
+    padding: 4px;
+    width: 60%;
+    float:right;
+    margin-top:15px;
+}
+
+.signup-form label{
+    padding: 14px;
+    width: 30%;
+   /* background-color: red; */
+    margin-top: 15px;
+   text-align: left;
+}
+.signin-form{
+    width:40%;
+    height: 60vh;
+    background-color: white;
+    margin-left: 370px;
+    margin-top: 25px;
+    color: black;
+    padding: 20px ;
+}
+.signin-form input{
+width: 50%;
+padding: 10px;
+float: right;
+margin-left: 100px;
+}
+.signin-form label{
+    padding-top: 10px;
+    float: left;
+}
+button{
+    padding: 15px;
+    border: 2px solid black;
+}
+.about-us-form p{
+   color: yellow;
+    
+}
+.about-us-form h4{
+    color: yellow;
+    font-size: 35;
+    text-decoration: underline;
+}
+.contact{
+    text-align: center;
+}
+.gallery{
+    font-size: 25;
+ margin-left: 50px;
+    color: rgb(104, 2, 2);
+    background-color: white;
+}
+.gallery img{
+background-color: white;
+width: 20%;
+height: 50vh;
+}
+.our-tours{
+    color: rgb(109, 2, 2);
+    float: right;
+    margin-top: -770px;
+    margin-right: 400px;
+}
